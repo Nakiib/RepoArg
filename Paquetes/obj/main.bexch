@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Paquetes\paquetes.gpr
+20221019072354 8c4efcc820c220ce57e5b73fd01817f7
+[BOUND OBJECT FILES]
+C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Paquetes\obj\constantes.o
+C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Paquetes\obj\Io.o
+C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Paquetes\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Paquetes\obj\
+-LC:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Paquetes\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

@@ -1,0 +1,103 @@
+V "GNAT Lib v2021"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		cc1bd0db NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D main.adb		20221018085830 83654216 main%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z b b [main standard 3 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 15|1r6 1r19 2r5 2r18 37r11
+X 3 a-flteio.ads
+20K13*Float_Text_IO[11|46] 15|1w23 2r22 37r15
+X 10 a-textio.ads
+58K13*Text_IO 725e16 15|1w10 2r9
+87I12*Field{integer}
+506U14*Put_Line 15|40s7 169s7 170s7
+X 11 a-tiflio.ads
+82U14*Put 15|39s7[3|20]
+84i7 Fore{10|87I12} 15|39r28[3|20]
+86i7 Exp{10|87I12} 15|39r18[3|20]
+X 15 main.adb
+3U11*Main 3b11 174l5 174t9
+6V13 Sumar{integer} 6b13 6>20 6>34 9t7
+6i20 N1{integer} 8r14
+6i34 N2{integer} 8r19
+12V13 Exponente{float} 12b13 12>24 12>41 33l8 33t17
+12i24 Base{integer} 20r23 23r28 25r46
+12i41 Expoente{integer} 15r10 19r10 24r25 28r10
+13f7 V_Resultado{float} 23m7 25m11 25r26 29r24 32r14
+24i11 index{integer}
+36U14 Show_float 36b14 36>25 42l8 42t18 44r47
+36f25 Value{float} 39r11
+44U14 Put_Line=44:47
+44f24 Value{float}
+48U14 Swap_Integers 48b14 48=29 48=54 54l8 54t21
+48i29 Param1{integer} 51r14 52m7
+48i54 Param2{integer} 52r17 53m7
+49i7 Aux{integer} 51m7 53r17
+58V13 Resta{integer} 58b13 58>20 58>44 58<66 64l8 64t13
+58i20 Izquierda{integer} 61r20
+58i44 Derecha{integer} 61r32
+58b66 Negativo{boolean} 62m7
+59i52 Resultado{integer} 61m7 62r19 63r14
+66V13 Resta{integer} 66b13 66>20 66>44 69l8 69t13
+66i20 Izquierda{integer} 68r14
+66i44 Derecha{integer} 68r26
+82U14 Mayor_Menor 82b14 82>26 83>26 84<26 85<26 90l8 90t19 165s7
+82i26 Parametro1{integer} 88r21 88r49 89r21 89r49 165r19
+83i26 Parametro2{integer} 88r32 88r65 89r32 89r65 166r19
+84i26 Mayor{integer} 88m7 167r19
+85i26 Menor{integer} 89m7 168r19
+161i7 A{integer} 165r33 168m33 170r26
+162i7 B{integer} 166r33 167m33 169r26
+
