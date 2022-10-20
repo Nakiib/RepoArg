@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Tipos\tipos.gpr
+20221020084130 734eec1ec71f5f8485d04c250e83aa7a
+[BOUND OBJECT FILES]
+C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Tipos\obj\geometria.o
+C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Tipos\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Tipos\obj\
+-LC:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Tipos\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
