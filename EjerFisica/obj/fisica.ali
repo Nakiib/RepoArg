@@ -8,22 +8,26 @@ RN
 RV NO_FLOATING_POINT
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U fisica%b		fisica.adb		a6d692dd NE OO PK
+U fisica%b		fisica.adb		e97033f1 NE OO PK
 
-U fisica%s		fisica.ads		16eb275d EE NE OO PK
+U fisica%s		fisica.ads		37321c66 EE NE OO PK
 
-D fisica.ads		20221021074844 16eb275d fisica%s
-D fisica.adb		20221021074550 b03db580 fisica%b
+D fisica.ads		20221021084512 37321c66 fisica%s
+D fisica.adb		20221021084814 de422f97 fisica%b
 D system.ads		20210520051136 2ffa5114 system%s
 G a e
-G c Z s b [calcular_velocidad fisica 4 13 none]
+G c Z s b [calcular_velocidad fisica 7 13 none]
 X 1 fisica.ads
-1K9*Fisica 6l5 6e11 2|1b14 11l5 11t11
-4V13*Calcular_Velocidad{float} 4>33 4>45 4>56 4>70 2|3b13 8l8 8t26
-4f33 Distancia{float} 2|3b33
-4f45 Velocidad{float} 2|3b45 6r27
-4f56 aceleracion{float} 2|3b56 6r44
-4f70 Tiempo{float} 2|3b69 6r58 6r67
+1K9*Fisica 9l5 9e11 2|1b14 11l5 11t11
+2F9*Distnacia<float> 7r50 2|3r50
+3F9*Velocidad<float> 4r28 7r80 2|3r80
+4F9*Aceleracion<3F9> 7r107 2|3r107
+5F9*tiempo<float> 7r131 2|3r131
+7V13*Calcular_Velocidad{float} 7>33 7>61 7>91 7>121 2|3b13 8l8 8t26
+7f33 Distancia_total{2F9} 2|3b33
+7f61 Velocidad_inicial{3F9} 2|3b61 6r33
+7f91 aceleracion_t{4F9} 2|3b91 6r65
+7f121 Tiempo_t{5F9} 2|3b121 6r88 6r99
 X 2 fisica.adb
 4f7 Velocidad_final{float} 6m7 7r14
 
