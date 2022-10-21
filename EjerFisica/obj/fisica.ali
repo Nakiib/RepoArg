@@ -1,0 +1,29 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U fisica%b		fisica.adb		a6d692dd NE OO PK
+
+U fisica%s		fisica.ads		16eb275d EE NE OO PK
+
+D fisica.ads		20221021074844 16eb275d fisica%s
+D fisica.adb		20221021074550 b03db580 fisica%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+G c Z s b [calcular_velocidad fisica 4 13 none]
+X 1 fisica.ads
+1K9*Fisica 6l5 6e11 2|1b14 11l5 11t11
+4V13*Calcular_Velocidad{float} 4>33 4>45 4>56 4>70 2|3b13 8l8 8t26
+4f33 Distancia{float} 2|3b33
+4f45 Velocidad{float} 2|3b45 6r27
+4f56 aceleracion{float} 2|3b56 6r44
+4f70 Tiempo{float} 2|3b69 6r58 6r67
+X 2 fisica.adb
+4f7 Velocidad_final{float} 6m7 7r14
+
