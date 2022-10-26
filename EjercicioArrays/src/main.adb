@@ -42,7 +42,7 @@ begin
       for index in Personitas'Range loop
          Put_Line("");
          Put(to_String(Personitas(index).Nombre));
-         Put(To_String(Personitas(index).Apellido));
+         Put(" "& To_String(Personitas(index).Apellido));
          Put(Personitas(index).Edad'Image);
 end loop;
 

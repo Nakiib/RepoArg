@@ -11,6 +11,7 @@ RV NO_EXCEPTION_PROPAGATION
 RV NO_EXCEPTIONS
 RV NO_IO
 RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
 RV NO_NESTED_FINALIZATION
 RV NO_SECONDARY_STACK
 RV NO_STANDARD_STORAGE_POOLS
@@ -19,7 +20,7 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_IMPLICIT_LOOPS
 
-U main%b		main.adb		fffd98ec NE OO SU
+U main%b		main.adb		08df415c NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
@@ -57,7 +58,7 @@ D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
 D io.ads		20221026092942 0d572625 io%s
-D main.adb		20221026095716 a927b027 main%b
+D main.adb		20221026100420 5e056997 main%b
 D system.ads		20210520051136 2ffa5114 system%s
 D s-atocou.ads		20210520051132 b45c2d8d system.atomic_counters%s
 D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
@@ -97,27 +98,27 @@ X 12 a-strunb.ads
 83K21*Unbounded 765e26 21|8w18 9r17
 88R9*Unbounded_String<5|43R9> 744e15 21|13r16 14r18
 104V13*To_Unbounded_String{88R9} 21|32s40 35s40
-117V13*To_String{string} 21|43s19 44s14
+117V13*To_String{string} 21|44s14 45s19
 X 15 a-textio.ads
 58K13*Text_IO 725e16 21|8w33 9r32
-463U14*Put 21|44s10 45s10
+463U14*Put 21|44s10 45s10 46s10
 493V13*Get_Line{string} 21|32s60 35s60
 506U14*Put_Line 21|21s4 30s10 33s10 36s10 43s10
 X 20 io.ads
 1K9*IO 14e7 21|8w42 9r41
 11V13*Get_Integer{integer} 21|22s20 37s36
 X 21 main.adb
-11U11*Main 11b11 49l5 49t9
+11U11*Main 11b11 50l5 50t9
 12R9 Persona 16e14 17r56
-13r7 Nombre{12|88R9} 32m30 43r47
-14r7 Apellido{12|88R9} 35m28 44r42
-15i7 Edad{integer} 37m28 45r32
+13r7 Nombre{12|88R9} 32m30 44r42
+14r7 Apellido{12|88R9} 35m28 45r47
+15i7 Edad{integer} 37m28 46r32
 17A9 Array_Personas(12R9)<integer> 24r20
 18i4 Num_Personas{integer} 22m4 24r40
-24a7 Personitas{17A9} 29r20 32m12 32r12 35m10 35r10 37m10 42r20 43r29 44r24
-. 45r14
+24a7 Personitas{17A9} 29r20 32m12 32r12 35m10 35r10 37m10 42r20 44r24 45r29
+. 46r14
 29i11 index{integer} 30r58 32r23 33r60 35r21 36r56 37r21
-42i11 index{integer} 43r40 44r35 45r25
+42i11 index{integer} 44r35 45r40 46r25
 X 22 system.ads
 67M9*Address
 X 32 s-memory.ads
