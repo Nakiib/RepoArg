@@ -74,11 +74,59 @@ begin
          Put(Promedio_Arreglo(Numeros), Exp=>0);
       end Muestra_Info;
 
+      --Mayores
+      --Una funcion que recibe un array y un valor
+      --devuelve otro array con los valores mayores al valor introducido
+      --  function Mayores (V_array : Array_Float; valor : Float) return Array_Float is
+      --     V_Array_Mayor : Array_Float(1 .. 0); --ARRAY VACIO
+      --     --Aux : Array_Float := V_array;
+      --    -- Indice_Mayores :Integer range 1.. 10;
+      --  begin
+      --     for index in V_array'Range loop
+      --        if V_array(index)> valor then
+      --           V_Array_Mayor(index) := V_array(index);
+      --
+      --        end if;
+      --
+      --     end loop;
+      --     return V_Array_Mayor;
+      --  end Mayores;
+
+      function Mayores(Arreglo : Array_Float; Valor : Float) return Array_Float
+      is
+         --Result : Array_Float(1..0); --Un array Vacio
+         Aux : Array_Float := Arreglo;
+         --Copio el arreglo para que tenga la misma longitud
+         --  subtype Tipo_Indice is Integer range Arreglo'Range;
+         --  Indice : Tipo_Indice := Arreglo'First;
+         Indice : Integer := Arreglo'First;
+      begin
+         for I in Arreglo'Range loop
+            if Arreglo(I)>Valor then
+               Aux(Indice) := Arreglo(I);
+            end if;
+         end loop;
+         declare
+            Result : Array_Float(Arreglo'First..Indice-1); --Me puede quedar vacio
+         begin
+            Result := Aux(Arreglo'First..Indice-1);--Slice
+            return Result;
+         end;
+      end Mayores;
 
 
       Numeros : Array_Float := Rellena_Arrays(10);
    begin
       Muestra_Info(Numeros);
+
+      declare
+         Mayores_A_5 : Array_Float := Mayores(Numeros, 2.0);
+      begin
+         Put_Line("Los mayores a 5 son ");
+         Muestra_Info(Mayores_A_5);
+
+end;
+
 
    end;
 end Main;

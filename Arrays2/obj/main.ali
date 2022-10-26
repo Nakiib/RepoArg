@@ -14,7 +14,7 @@ RV NO_DEFAULT_INITIALIZATION
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 
-U main%b		main.adb		a4117f8e NE OO SU
+U main%b		main.adb		5371ea18 NE OO SU
 W ada%s			ada.ads			ada.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.numerics%s	a-numeri.ads		a-numeri.ali
@@ -39,7 +39,7 @@ D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D main.adb		20221025072458 ab394639 main%b
+D main.adb		20221025085102 5c59d3af main%b
 D system.ads		20210520051136 2ffa5114 system%s
 D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
@@ -74,14 +74,15 @@ X 6 a-nuflra.ads
 X 12 a-textio.ads
 58K13*Text_IO 725e16 17|1w10 2r9
 87I12*Field{integer}
-506U14*Put_Line 17|67s13 69s10 72s10 73s10
+506U14*Put_Line 17|67s13 69s10 72s10 73s10 125s10
 X 13 a-tiflio.ads
 82U14*Put 17|66s13[3|20] 70s10[3|20] 74s10[3|20]
 86i7 Exp{12|87I12} 17|66r33[3|20] 70r42[3|20] 74r41[3|20]
 X 17 main.adb
-3U11*Main 3b11 84l5 84t9
-22A12 Array_Float(float)<integer> 25r64 27r26 43r51 54r52 63r41 79r17
-25V16 Rellena_Arrays{22A12} 25b16 25>32 38l11 38t25 79s32
+3U11*Main 3b11 132l5 132t9
+22A12 Array_Float(float)<integer> 25r64 27r26 43r51 54r52 63r41 95r34 95r69
+. 98r16 110r22 118r17 123r24
+25V16 Rellena_Arrays{22A12} 25b16 25>32 38l11 38t25 118s32
 25i32 Posiciones{integer} 27r43 29r27
 26r10 Generador{6|47R9} 30r19 31r51
 27a10 V_Array_float{22A12} 31m13 35r17
@@ -92,8 +93,16 @@ X 17 main.adb
 46i14 I{integer} 47r44
 54V16 Promedio_Arreglo{float} 54b16 54>33 60t10 74s14
 54a33 Arreglo_Media{22A12} 58r34 58r55
-63U17 Muestra_Info 63b17 63>31 75l11 75t23 81s7
+63U17 Muestra_Info 63b17 63>31 75l11 75t23 120s7 126s10
 63a31 Numeros{22A12} 65r31 66r17 70r32 74r31
 65i14 index{integer} 66r25
-79a7 Numeros{22A12} 81r20
+95V16 Mayores{22A12} 95b16 95>24 95>47 115l11 115t18 123s39
+95a24 Arreglo{22A12} 98r31 102r30 104r19 105r16 106r31 110r34 112r27
+95f47 Valor{float} 105r27
+98a10 Aux{22A12} 106m16 112r23
+102i10 Indice{integer} 106r20 110r49 112r42
+104i14 I{integer} 105r24 106r39
+110a13 Result{22A12} 112m13 113r20
+118a7 Numeros{22A12} 120r20 123r47
+123a10 Mayores_A_5{22A12} 126r23
 
