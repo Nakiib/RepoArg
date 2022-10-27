@@ -33,30 +33,44 @@ begin
 --  end;
 --
 --     null;
+   --  declare
+   --     type Componente_Adn is (A, G, C, T);
+   --     --  (Adenina, Guanina. Citosita, Timina);
+   --     --  Componente_Adn_As_String : array (Componente_Adn) of Unbounded_String
+   --     --    := (To_Unbounded_String("Adenina"),
+   --     --        To_Unbounded_String("Guanina"),
+   --     --        To_Unbounded_String("Citosita"),
+   --     --        To_Unbounded_String("Timina"));
+   --     --NO NOS GUSTA LA FORMA DE ARRIBA
+   --
+   --     function To_String (Enum : Componente_Adn) return String is
+   --     begin
+   --        return
+   --          (case Enum is
+   --              when A => "Adeninda",
+   --              when G => "Guanina",
+   --              when C =>"Citosina",
+   --              when T => "Timina");
+   --           end To_String;
+   --
+   --
+   --
+   --     Componente : Componente_Adn := A;
+   --  begin
+   --     Put_Line(To_String(Componente));
+--  end;
+
    declare
-      type Componente_Adn is (A, G, C, T);
-      --  (Adenina, Guanina. Citosita, Timina);
-      --  Componente_Adn_As_String : array (Componente_Adn) of Unbounded_String
-      --    := (To_Unbounded_String("Adenina"),
-      --        To_Unbounded_String("Guanina"),
-      --        To_Unbounded_String("Citosita"),
-      --        To_Unbounded_String("Timina"));
-      --NO NOS GUSTA LA FORMA DE ARRIBA
+      --  type Dia is range 1 ..31;
+      --  type Mes is range 1 .. 12;
+      type Fecha is record
+   x
 
-      function To_String (Enum : Componente_Adn) return String is
-      begin
-         return
-           (case Enum is
-               when A => "Adeninda",
-               when G => "Guanina",
-               when C =>"Citosina",
-               when T => "Timina");
-            end To_String;
-
-   --  end ;
-
-      Componente : Componente_Adn := A;
+      Nacimiento : Fecha := (20,9,1980); -- esto es una inicilizacion posicional
+      Nacimiento : Fecha := (Dia => 20, Mes => 9, Año => 1980);
    begin
-      Put_Line(To_String(Componente));
-   end;
+      --Esto me permite cambiarle po nombres como java
+      Nacimiento.Dia := 20;
+
+end;
 end Main;

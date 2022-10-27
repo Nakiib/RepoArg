@@ -1,50 +1,48 @@
 V "GNAT Lib v2021"
-M P W=b
 A -gnatA
 A -mtune=generic
 A -march=x86-64
 P SS ZX
 
 RN
+RV NO_ENUMERATION_MAPS
 RV NO_EXCEPTION_HANDLERS
 RV NO_EXCEPTION_PROPAGATION
 RV NO_EXCEPTIONS
-RV NO_IO
 RV NO_IMPLICIT_CONDITIONALS
-RV NO_LOCAL_ALLOCATORS
-RV NO_NESTED_FINALIZATION
 RV NO_SECONDARY_STACK
 RV NO_STANDARD_STORAGE_POOLS
-RV NO_DEFAULT_INITIALIZATION
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_IMPLICIT_LOOPS
 
-U main%b		main.adb		914f8227 NE OO SU
+U juego%b		juego.adb		53e0e8dc NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_8%s	s-conca8.adb		s-conca8.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U juego%s		juego.ads		343a2370 EE NE OO PK
 W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
-W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.strings%s		a-string.ads		a-string.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
-W ada.text_io%s		a-textio.adb		a-textio.ali
-W io%s			io.adb			io.ali
 Z system%s		system.ads		system.ali
-Z system.concat_2%s	s-conca2.adb		s-conca2.ali
 Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
-Z system.img_int%s	s-imgint.ads		s-imgint.ali
-Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 Z system.soft_links%s	s-soflin.adb		s-soflin.ali
 Z system.standard_library%s  s-stalib.adb	s-stalib.ali
 Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
 
 D ada.ads		20210520051132 76789da1 ada%s
 D a-charac.ads		20210520051128 2d3ec45b ada.characters%s
+D a-chahan.ads		20210520051128 0ce1b450 ada.characters.handling%s
 D a-chlat1.ads		20210520051128 66457d31 ada.characters.latin_1%s
 D a-except.ads		20210520051128 946f3014 ada.exceptions%s
 D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
-D a-inteio.ads		20210520051128 f64b89a4 ada.integer_text_io%s
-D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
 D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
 D a-string.ads		20210520051130 90ac6797 ada.strings%s
 D a-strmap.ads		20210520051130 5a88892a ada.strings.maps%s
@@ -52,19 +50,15 @@ D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
 D a-strunb.ads		20210520051130 03325227 ada.strings.unbounded%s
 D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
 D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
-D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
-D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
-D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D io.ads		20221026092942 0d572625 io%s
-D main.adb		20221026101344 c795aaec main%b
+D juego.ads		20221027085352 3be9c507 juego%s
+D juego.adb		20221027085828 68092ddb juego%b
 D system.ads		20210520051136 2ffa5114 system%s
 D s-atocou.ads		20210520051132 b45c2d8d system.atomic_counters%s
 D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
-D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-conca8.ads		20210520051132 e3074dd7 system.concat_8%s
 D s-exctab.ads		20210520051132 54135002 system.exception_table%s
-D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
 D s-finmas.ads		20210520051132 1ab4dba8 system.finalization_masters%s
 D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
 D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
@@ -83,49 +77,60 @@ D s-stopoo.ads		20210520051134 e9fa2dd8 system.storage_pools%s
 D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
 D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
 D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
-D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z b b [main standard 11 11 none]
-G r c none [main standard 11 11 none] [get_integer io 11 13 none]
-G r c none [main standard 11 11 none] [get_notempty_line io 3 13 none]
+G c Z s b [to_string juego 20 13 none]
+G c Z s b [to_string juego 21 13 none]
+G c Z s s [jugadorDI juego 11 9 none]
+G c Z s s [jugadorDA juego 11 9 none]
+G c Z s s [jugadorDF juego 11 9 none]
+G c Z s s [jugadorIP juego 11 9 none]
+G c Z s s [jugadoresIP juego 18 9 none]
+G c Z s s [jugadoresDI juego 18 9 none]
+G c Z s s [jugadoresDA juego 18 9 none]
+G c Z s s [jugadoresDF juego 18 9 none]
 X 1 ada.ads
-16K9*Ada 20e8 21|8r6 8r29 8r46 9r5 9r28 9r45
-X 6 a-inteio.ads
-18K13*Integer_Text_IO[16|46] 21|8w50 9r49
-X 9 a-string.ads
-16K13*Strings 35e16 21|8r10 9r9
-X 12 a-strunb.ads
-83K21*Unbounded 765e26 21|8w18 9r17
-88R9*Unbounded_String<5|43R9> 744e15 21|13r16 14r18
-104V13*To_Unbounded_String{88R9} 21|31s38 35s40
-117V13*To_String{string} 21|46s14 47s19
-X 15 a-textio.ads
-58K13*Text_IO 725e16 21|8w33 9r32
-463U14*Put 21|46s10 47s10 48s10
-506U14*Put_Line 21|21s4 30s10 34s10 38s10 45s10
-X 20 io.ads
-1K9*IO 14e7 21|8w42 9r41
-3V13*get_NotEmpty_Line{string} 21|31s58 35s60
-11V13*Get_Integer{integer} 21|22s20 39s36
-X 21 main.adb
-11U11*Main 11b11 52l5 52t9
-12R9 Persona 16e14 17r56
-13r7 Nombre{12|88R9} 31m28 46r42
-14r7 Apellido{12|88R9} 35m28 47r47
-15i7 Edad{integer} 39m28 48r32
-17A9 Array_Personas(12R9)<integer> 24r20
-18i4 Num_Personas{integer} 22m4 24r40
-24a7 Personitas{17A9} 29r20 31m10 31r10 35m10 35r10 39m10 44r20 46r24 47r29
-. 48r14
-29i11 index{integer} 30r58 31r21 34r60 35r21 38r56 39r21
-44i11 index{integer} 46r35 47r40 48r25
-X 22 system.ads
+16K9*Ada 20e8 16|1r6 1r29 2r5 2r28
+X 2 a-charac.ads
+16K13*Characters 18e19 16|1r33 2r32
+X 3 a-chahan.ads
+36K24*Handling 160e28 16|1w44 2r43
+71V13*To_Lower{string} 17|11s45
+72V13*To_Upper{string} 17|11s14
+X 8 a-string.ads
+16K13*Strings 35e16 16|1r10 2r9
+X 11 a-strunb.ads
+83K21*Unbounded 765e26 16|1w18 2r17
+88R9*Unbounded_String<6|43R9> 744e15 16|12r16
+117V13*To_String{string} 17|5s15
+X 16 juego.ads
+3K9*Juego 23l5 23e10 17|1b14 15l5 15t10
+4i4*Default_Max_Hp{integer} 9r28
+5i4*Default_Max_lvl{integer} 8r31
+7E9*Profesiones 7e66 13r19 21r35 17|8r35
+7n25*Guerrero{7E9} 7r88
+7n35*Mago{7E9}
+7n41*Sanador{7E9}
+7n50*Asesino{7E9}
+7n59*Ninja{7E9}
+8I9*Niveles<short_short_integer> 14r15
+9I9*Vida<short_integer> 15r12
+11R9*Jugador 16e14 18r51 20r35 17|3r35
+12r7*Nombre{11|88R9} 17|5r31
+13e7*Profesion{7E9} 17|5r63
+14i7*Nivel{8I9} 17|5r89
+15i7*Hp{9I9} 17|5r119
+18A9*Jugadores(11R9)<integer>
+20V13*To_String{string} 20>24 17|3b13 6t7
+20r24 Value{11R9} 17|3b24 5r25 5r57 5r83 5r113
+21V13*To_String{string} 21>24 17|5s47 8b13 12t7
+21e24 Value{7E9} 17|8b24 11r23 11r54 11r71
+X 18 system.ads
 67M9*Address
-X 32 s-memory.ads
-53V13*Alloc{22|67M9} 103i<c,__gnat_malloc>22
+X 27 s-memory.ads
+53V13*Alloc{18|67M9} 103i<c,__gnat_malloc>22
 68U14*Free 104i<c,__gnat_free>22
-76V13*Realloc{22|67M9} 105i<c,__gnat_realloc>22
-X 39 s-stalib.adb
+76V13*Realloc{18|67M9} 105i<c,__gnat_realloc>22
+X 34 s-stalib.adb
 89U14 Break_Start 90i<c,__gnat_break_start>22
 

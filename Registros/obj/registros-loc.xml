@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\src\io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 86" >
+      <vfs_project>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 2" >
+      <vfs_project>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 3" >
+      <vfs_project>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\src\jugador.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 7" >
+      <vfs_project>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\src\jugador.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 5" >
+      <vfs_project>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 38" line=" 64" >
+      <vfs_project>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 5" >
+      <vfs_project>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 62" line=" 16" >
+      <vfs_project>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\src\io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 49" >
+      <vfs_project>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\src\io.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 15" >
+      <vfs_project>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\registros.gpr</vfs_project>
+      <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Registros\src\io.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

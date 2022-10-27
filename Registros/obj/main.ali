@@ -6,6 +6,7 @@ A -march=x86-64
 P SS ZX
 
 RN
+RV NO_ENUMERATION_MAPS
 RV NO_EXCEPTION_HANDLERS
 RV NO_EXCEPTION_PROPAGATION
 RV NO_EXCEPTIONS
@@ -18,32 +19,32 @@ RV NO_STANDARD_STORAGE_POOLS
 RV NO_DEFAULT_INITIALIZATION
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
-RV NO_IMPLICIT_LOOPS
 
-U main%b		main.adb		914f8227 NE OO SU
+U main%b		main.adb		039c01e3 NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
-W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
 W ada.strings%s		a-string.ads		a-string.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W io%s			io.adb			io.ali
+W juego%s		juego.adb		juego.ali
 Z system%s		system.ads		system.ali
 Z system.concat_2%s	s-conca2.adb		s-conca2.ali
-Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
 Z system.img_int%s	s-imgint.ads		s-imgint.ali
 Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
 Z system.soft_links%s	s-soflin.adb		s-soflin.ali
 Z system.standard_library%s  s-stalib.adb	s-stalib.ali
-Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.val_enum_8%s	s-vaenu8.ads		s-vaenu8.ali
 
 D ada.ads		20210520051132 76789da1 ada%s
 D a-charac.ads		20210520051128 2d3ec45b ada.characters%s
+D a-chahan.ads		20210520051128 0ce1b450 ada.characters.handling%s
 D a-chlat1.ads		20210520051128 66457d31 ada.characters.latin_1%s
 D a-except.ads		20210520051128 946f3014 ada.exceptions%s
 D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
-D a-inteio.ads		20210520051128 f64b89a4 ada.integer_text_io%s
+D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
 D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
 D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
 D a-string.ads		20210520051130 90ac6797 ada.strings%s
@@ -53,12 +54,13 @@ D a-strunb.ads		20210520051130 03325227 ada.strings.unbounded%s
 D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
 D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
-D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
+D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
-D io.ads		20221026092942 0d572625 io%s
-D main.adb		20221026101344 c795aaec main%b
+D io.ads		20221027082516 61acc6d1 io%s
+D juego.ads		20221027085352 3be9c507 juego%s
+D main.adb		20221027092312 1595c2df main%b
 D system.ads		20210520051136 2ffa5114 system%s
 D s-atocou.ads		20210520051132 b45c2d8d system.atomic_counters%s
 D s-conca2.ads		20210520051132 02a0d7d0 system.concat_2%s
@@ -83,49 +85,68 @@ D s-stopoo.ads		20210520051134 e9fa2dd8 system.storage_pools%s
 D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
 D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
 D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-vaenu8.ads		20210520051134 b7b91426 system.val_enum_8%s
+D s-valuen.ads		20210520051134 72b74993 system.value_n%s
 D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
 D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
-G c Z b b [main standard 11 11 none]
-G r c none [main standard 11 11 none] [get_integer io 11 13 none]
-G r c none [main standard 11 11 none] [get_notempty_line io 3 13 none]
+G c Z b b [main standard 3 11 none]
+G r c none [main standard 3 11 none] [get_integer io 16 13 none]
+G r s jugadores [main standard 3 11 none] [jugadoresIP juego 18 9 none]
+G r l jugadores [main standard 3 11 none] [jugadoresDI juego 18 9 none]
+G r k jugadores [main standard 3 11 none] [jugadoresDF juego 18 9 none]
+G r c none [main standard 3 11 none] [get_notempty_line io 7 13 none]
+G r c none [main standard 3 11 none] [to_string juego 21 13 none]
+G r k jugador [main standard 3 11 none] [jugadorDF juego 11 9 none]
+G r j jugador [main standard 3 11 none] [jugadorDA juego 11 9 none]
+G r c none [main standard 3 11 none] [to_string juego 20 13 none]
 X 1 ada.ads
-16K9*Ada 20e8 21|8r6 8r29 8r46 9r5 9r28 9r45
-X 6 a-inteio.ads
-18K13*Integer_Text_IO[16|46] 21|8w50 9r49
-X 9 a-string.ads
-16K13*Strings 35e16 21|8r10 9r9
-X 12 a-strunb.ads
-83K21*Unbounded 765e26 21|8w18 9r17
-88R9*Unbounded_String<5|43R9> 744e15 21|13r16 14r18
-104V13*To_Unbounded_String{88R9} 21|31s38 35s40
-117V13*To_String{string} 21|46s14 47s19
-X 15 a-textio.ads
-58K13*Text_IO 725e16 21|8w33 9r32
-463U14*Put 21|46s10 47s10 48s10
-506U14*Put_Line 21|21s4 30s10 34s10 38s10 45s10
-X 20 io.ads
-1K9*IO 14e7 21|8w42 9r41
-3V13*get_NotEmpty_Line{string} 21|31s58 35s60
-11V13*Get_Integer{integer} 21|22s20 39s36
-X 21 main.adb
-11U11*Main 11b11 52l5 52t9
-12R9 Persona 16e14 17r56
-13r7 Nombre{12|88R9} 31m28 46r42
-14r7 Apellido{12|88R9} 35m28 47r47
-15i7 Edad{integer} 39m28 48r32
-17A9 Array_Personas(12R9)<integer> 24r20
-18i4 Num_Personas{integer} 22m4 24r40
-24a7 Personitas{17A9} 29r20 31m10 31r10 35m10 35r10 39m10 44r20 46r24 47r29
-. 48r14
-29i11 index{integer} 30r58 31r21 34r60 35r21 38r56 39r21
-44i11 index{integer} 46r35 47r40 48r25
-X 22 system.ads
+16K9*Ada 20e8 23|1r10 1r36 1r49 2r9 2r35 2r48
+X 7 a-flteio.ads
+20K13*Float_Text_IO[17|46] 23|1w14 2r13
+X 10 a-string.ads
+16K13*Strings 35e16 23|1r53 2r52
+X 13 a-strunb.ads
+83K21*Unbounded 765e26 23|1w61 2r60
+104V13*To_Unbounded_String{88R9} 23|47s45
+X 16 a-textio.ads
+58K13*Text_IO 725e16 23|1w40 2r39
+506U14*Put_Line 23|20s10 24s10 32s10 56s10
+X 21 io.ads
+1K9*IO 20e7 23|1w6 2r5
+7V13*get_NotEmpty_Line{string} 23|7s38 46s40
+16V13*Get_Integer{integer} 23|41s38
+17a7 Promt{string} 23|41r50
+X 22 juego.ads
+3K9*Juego 23e10 23|1w29 2r28
+7E9*Profesiones 7e66 23|5r48 7r20 15r36 17r19 23r16
+11R9*Jugador 16e14 23|47r23
+12r7*Nombre{13|88R9} 23|47m35
+13e7*Profesion{7E9} 23|48m35
+18A9*Jugadores(11R9)<integer> 23|41r22
+20V13*To_String{string} 23|56s19
+21V13*To_String{string} 23|24s19
+X 23 main.adb
+3U11*Main 3b11 61l5 61t9
+5V13 Try_Get_Profesion{boolean} 5b13 5<32 11l8 11t25 28s30
+5e32 Profesion{22|7E9} 7m7
+13V13 Get_Profesion{22|7E9} 13b13 13>28 14>28 35l8 35t21 48s48
+13a28 Promt{string} 19r10 20r19 48r62
+14a28 Error_Message{string} 32r19
+16b7 Entrada_Correcta{boolean} 28m10 29r13
+17e7 Profesion{22|7E9} 28m48 28r48 30r20
+23e11 P{22|7E9} 24r29
+41a4 Lista_Jugadores{22|18A9} 43r20 51m13 55r20
+43i11 index{integer} 46r88 51r30
+46a13 Nombre_Jugador{string} 47r65
+47r13 Campeon{22|11R9} 51r40
+55r11 Champ=55:20{22|11R9} 56r29
+X 24 system.ads
 67M9*Address
-X 32 s-memory.ads
-53V13*Alloc{22|67M9} 103i<c,__gnat_malloc>22
+X 34 s-memory.ads
+53V13*Alloc{24|67M9} 103i<c,__gnat_malloc>22
 68U14*Free 104i<c,__gnat_free>22
-76V13*Realloc{22|67M9} 105i<c,__gnat_realloc>22
-X 39 s-stalib.adb
+76V13*Realloc{24|67M9} 105i<c,__gnat_realloc>22
+X 41 s-stalib.adb
 89U14 Break_Start 90i<c,__gnat_break_start>22
 
