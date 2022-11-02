@@ -1,5 +1,7 @@
+with ada.Strings.Unbounded, Ada.Characters.Handling;
+use ada.Strings.Unbounded, Ada.Characters.Handling;
 package Procedimientos is
 
-   procedure Paso_String (s : String(1 .. 5); );
+  function Alfanumericos (x : String) return Boolean;
 
 end Procedimientos;
