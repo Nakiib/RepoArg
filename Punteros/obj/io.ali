@@ -1,0 +1,104 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U io%b			io.adb			3270991e NE OO PK IU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.fixed%s	a-strfix.adb		a-strfix.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.val_int%s	s-valint.ads		s-valint.ali
+
+U io%s			io.ads			61acc6d1 EE NE OO PK IU
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-charac.ads		20210520051128 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210520051128 66457d31 ada.characters.latin_1%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-inteio.ads		20210520051128 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-strfix.ads		20210520051130 aeacf44c ada.strings.fixed%s
+D a-strmap.ads		20210520051130 5a88892a ada.strings.maps%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D io.ads		20221027082516 61acc6d1 io%s
+D io.adb		20221027082620 356390dd io%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-valint.ads		20210520051134 e7fcadb7 system.val_int%s
+D s-valuns.ads		20210520051134 dac7b45d system.val_uns%s
+D s-valuei.ads		20210520051134 978dd0a6 system.value_i%s
+D s-valueu.ads		20210520051134 7b8fccf5 system.value_u%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [get_notempty_line io 7 13 none]
+G c Z s b [try_get_integer io 12 13 none]
+G c Z s b [get_integer io 16 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 20|1r6 1r19 1r32 1r51 2r5 2r18 2r31 2r50
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[15|46] 20|1w55 2r54
+X 8 a-string.ads
+16K13*Strings 35e16 20|1w23 1r36 2r22 2r35
+33n37*Both{33E9} 20|18r27 22r63
+X 9 a-strfix.ads
+43K21*Fixed 1398e22 20|1w44 2r43
+1097V13*Trim{string} 20|22s49
+1148U14*Trim 20|18s13
+X 14 a-textio.ads
+58K13*Text_IO 725e16 20|1w10 2r9
+493V13*Get_Line{string} 20|15s36 44s30
+506U14*Put_Line 20|10s10 32s10 59s10 73s16
+X 19 io.ads
+1K9*IO 20l5 20e7 20|3b14 94l5 94t7
+4a4*Default_Strimg_Error_Message{string} 8r58 20|7r33
+5a4*Default_Integer_Error_Message{string} 18r33 20|54r54
+7V13*get_NotEmpty_Line{string} 7>32 8>32 20|5b16 36l11 36t28
+7a32 Promt{string} 20|6b7 9r10 10r19
+8a32 Error_Message{string} 20|7b7 32r19
+12V13*Try_Get_Integer{boolean} 13<7 20|39b16 50l8 50t23 68s20
+13i7 Value{integer} 20|40b7 44m7
+16V13*Get_Integer{integer} 17>7 18>7 20|53b13 79l8 79t19
+17a7 Promt{string} 20|54b7 58r10 59r19
+18a7 Error_Message{string} 20|54b28 73r25
+X 20 io.adb
+15a16 Entrada{string} 18r18 22r54
+22a16 Entrada_sin_espacios{string} 25r19 26r26
+63i13 numero{integer} 68m36 68r36 70r26
+

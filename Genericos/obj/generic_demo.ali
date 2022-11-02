@@ -1,0 +1,26 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U generic_demo%b	generic_demo.adb	459792d3 NE OO PK
+
+U generic_demo%s	generic_demo.ads	33453156 BN EE NE OO PK
+
+D generic_demo.ads	20221028080650 33453156 generic_demo%s
+D generic_demo.adb	20221028080604 76d2a385 generic_demo%b
+D system.ads		20210520051136 2ffa5114 system%s
+G a e
+X 1 generic_demo.ads
+1K9*Generic_Demo 6l5 6e17 2|1b14 12l5 12t17
+2+17 T 3r43 4r44 2|3r46 4r44 5r11
+3u14*Generic_Swap 3=28 4=28 2|3b17 10l5 10t17
+3*28 value1{2+17} 2|3b31 7r14 8m7
+4*28 Value2{2+17} 2|4b28 8r17 9m7
+X 2 generic_demo.adb
+5*7 aux{1|2+17} 7m7 9r17
+

@@ -1,0 +1,4 @@
+movil.adb:22:30: error: missing argument for parameter "this" in call to "Get_Posicionx" declared at movil.ads:8
+movil.adb:22:58: error: missing argument for parameter "this" in call to "Get_Posiciony" declared at movil.ads:9
+movil.adb:22:98: error: missing argument for parameter "this" in call to "Get_Velocidadx" declared at movil.ads:10
+movil.adb:22:127: error: missing argument for parameter "this" in call to "Get_Velocidady" declared at movil.ads:11

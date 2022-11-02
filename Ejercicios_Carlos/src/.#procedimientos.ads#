@@ -1,0 +1,7 @@
+with ada.Strings.Unbounded;
+use ada.Strings.Unbounded;
+package Procedimientos is
+
+  function Alfanumericos (x : Unbounded_String) return Boolean;
+
+end Procedimientos;

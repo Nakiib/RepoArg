@@ -1,0 +1,3 @@
+main.adb:4:04: warning: variable "Movil" is read but never assigned [-gnatwv]
+main.adb:16:13: warning: null value not allowed here [enabled by default]
+main.adb:16:13: warning: "Constraint_Error" will be raised at run time [enabled by default]

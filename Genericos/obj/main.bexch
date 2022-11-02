@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Genericos\genericos.gpr
+20221028071354 3a1d291ab096e442f0a327cdfa8b98ac
+[BOUND OBJECT FILES]
+C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Genericos\obj\generic_demo.o
+C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Genericos\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Genericos\obj\
+-LC:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Genericos\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

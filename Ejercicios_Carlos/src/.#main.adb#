@@ -1,0 +1,14 @@
+--  Hacer una función en la que dado un String como input, verifique si todos
+--  los caracteres que conforman el string, son alfanuméricos (no usar la función
+--  ADA que ya nos lo indica). Si alguno de los caracteres no es un alfanumérico,
+--  devuelve FALSE. En caso contrario, la función devuelve TRUE.
+with ada.Text_IO, ada.Strings.Unbounded;
+use ada.Text_IO, ada.Strings.Unbounded;
+procedure Main is
+   Nombre : Unbounded_String;
+begin
+   --  Insert code here.
+   Is_Alphanumeric
+
+   null;
+end Main;
