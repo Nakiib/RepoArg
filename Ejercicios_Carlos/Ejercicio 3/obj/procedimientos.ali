@@ -1,0 +1,80 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_ENUMERATION_MAPS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U procedimientos%b	procedimientos.adb	d97c80e6 NE OO PK
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system.img_char%s	s-imgcha.adb		s-imgcha.ali
+
+U procedimientos%s	procedimientos.ads	95752f04 EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-charac.ads		20210520051128 2d3ec45b ada.characters%s
+D a-chahan.ads		20210520051128 0ce1b450 ada.characters.handling%s
+D a-chlat1.ads		20210520051128 66457d31 ada.characters.latin_1%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-strmap.ads		20210520051130 5a88892a ada.strings.maps%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-strunb.ads		20210520051130 03325227 ada.strings.unbounded%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D procedimientos.ads	20221102114206 9aa6c973 procedimientos%s
+D procedimientos.adb	20221102114146 43da4995 procedimientos%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atocou.ads		20210520051132 b45c2d8d system.atomic_counters%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-imgcha.ads		20210520051134 9c3458e7 system.img_char%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20210520051134 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [esalfanumerico procedimientos 5 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 16|1r6 1r29 2r5 2r28
+X 2 a-charac.ads
+16K13*Characters 18e19 16|1r33 2r32
+X 3 a-chahan.ads
+36K24*Handling 160e28 16|1w44 2r43
+X 8 a-string.ads
+16K13*Strings 35e16 16|1r10 2r9
+X 11 a-strunb.ads
+83K21*Unbounded 765e26 16|1w18 2r17
+X 16 procedimientos.ads
+3K9*Procedimientos 7l5 7e19 17|1b14 30l5 30t19
+5V13*EsAlfanumerico{boolean} 5>29 17|3b13 29l8 29t22
+5a29 Cadena{string} 17|3b29 13r20 24r17
+X 17 procedimientos.adb
+4A12 Tipo_Alfanumericos(string)<integer> 5r23
+5a7 Alfanumericos{4A12} 15r26
+11i7 Cont{integer} 18m16 18r24 24r10
+13e11 Letra=13:20{character} 17r16
+15a14 Elemento=15:26{string} 17r30
+

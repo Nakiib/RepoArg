@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Locations >
   <Project>
-    <vfs_file />
+    <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Ejercicios_Carlos\Ejercicio 4\ejercicios.gpr</vfs_file>
     <file_marker column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\POObjetos\src\main.adb</vfs_file>
@@ -206,9 +206,17 @@
       <vfs_project />
       <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\POObjetos\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 9" line=" 11" >
+    <file_marker column=" 9" line=" 11" >
       <vfs_project />
       <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\POObjetos\src\personaje.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 5" >
+      <vfs_project>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Ejercicios_Carlos\Ejercicio 4\ejercicios.gpr</vfs_project>
+      <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Ejercicios_Carlos\Ejercicio 4\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 68" line=" 21" >
+      <vfs_project>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Ejercicios_Carlos\Ejercicio 4\ejercicios.gpr</vfs_project>
+      <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Ejercicios_Carlos\Ejercicio 4\src\procedimientos.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>

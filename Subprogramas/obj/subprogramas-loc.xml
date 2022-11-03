@@ -1,10 +1,25 @@
 <?xml version="1.0"?>
-<Locations>
+<Locations >
   <Project>
-    <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Subprogramas\subprogramas.gpr</vfs_file>
-    <file_marker current="true" column=" 1" line=" 1" >
-      <vfs_project>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Subprogramas\subprogramas.gpr</vfs_project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
       <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 18" >
+      <vfs_project />
+      <vfs_file>C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Subprogramas\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2021\lib\gcc\x86_64-w64-mingw32\10.3.1\adainclude\targext.c</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Subprogramas\subprogramas.gpr</vfs_file>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project >C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Subprogramas\subprogramas.gpr</vfs_project>
+      <vfs_file >C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Subprogramas\src\main.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>

@@ -1,0 +1,20 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Ejercicios_Carlos\Ejercicio 4\ejercicios.gpr
+20221102123436 301444cfbdd82dc96066834d40e099ca
+[BOUND OBJECT FILES]
+C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Ejercicios_Carlos\Ejercicio 4\obj\procedimientos.o
+C:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Ejercicios_Carlos\Ejercicio 4\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Ejercicios_Carlos\Ejercicio 4\obj\
+-LC:\Users\nur\Desktop\Naqeeb\Ada\TalentCamp ADA\ADAEX\Ejercicios_Carlos\Ejercicio 4\obj\
+-LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

@@ -9,7 +9,10 @@ package Movil is
    function Get_PosicionY (this:Clase_Movil) return Posiciones;
    function Get_VelocidadX (this:Clase_Movil) return Velocidades;
    function Get_VelocidadY (this:Clase_Movil) return Velocidades;
+   --Constructor 
+   --  function Create (Nombre : String) return Campeon;
 private
+   
    type Clase_Movil is tagged record
       PosicionX : Posiciones := 0;
       PosicionY : Posiciones := 0;
