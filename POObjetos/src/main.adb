@@ -10,6 +10,7 @@ use Personaje, ada.Strings.Unbounded, ada.Text_IO;
 --         tagged record = class
 --4. Generar un access(REferencia) para la clase abajo del tagged private
 --                type NNN is access Ckase_NNN
+--                type NNN is access Ckase_NNN'Class (si puedo tener subclases)
 --      Esto es para manejar los objetos como referencias al igual que java
 --5. Generar un constructor (una funcion que devuelva una referencia a un objeto)
 --    Le podemos poner el nombre que deseemos, sugrencia : Create

@@ -8,7 +8,10 @@ package Personaje is
    type Clase_Personaje is tagged private;
 
    
-   type Campeon is access  Clase_Personaje;
+   type Clase_Campeon is tagged private;   
+   --Puedo Poner cualquiera de las dos dependiendo si tengo subclases   
+   --type Campeon is access Clase_Campeon; --final, sin subclases   
+   type Campeon is access Clase_Campeon'Class; --puedo tener subclases
    --se crea un puntero al igual que en java
    
    --Constructor 

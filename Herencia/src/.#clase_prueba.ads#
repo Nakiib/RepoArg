@@ -1,0 +1,22 @@
+with ada.Strings.Unbounded;
+use ada.Strings.Unbounded;
+package Clase_Prueba is
+   type Clase_Padre is abstract tagged private:
+   type Ac_Padre is access Clase_Padre'Class;
+   
+   type Clase_Prueba is tagged private;
+   --ahora creamos el puntero
+   type Ac_Prueba is access Clase_Prueba;
+   --constructor
+   function create (Names : Unbounded_String) return Ac_Prueba ;
+   
+   
+private
+   type Clase_Prueba is tagged record
+      Nombre:Unbounded_String;
+      end record;
+
+   type Clase_Padre is tagged record 
+      Nombre : Unbounded_String;
+   end record;
+end Clase_Prueba;

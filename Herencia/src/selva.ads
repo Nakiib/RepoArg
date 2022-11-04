@@ -23,6 +23,10 @@ package Selva is
    type Clase_Jirafa is new Clase_Animal with private;
    Function Create_Jirafa(Un_Nombre : String) return Animal;
    overriding procedure Hablar(this: in Clase_Jirafa);
+   
+   type Clase_Aguila is new Clase_Animal with private;
+   Function Create_Aguila(Un_Nombre : String) return Animal;
+   overriding procedure Hablar(this: in Clase_Aguila);
 
 private
    type Clase_Animal is  abstract tagged record
@@ -33,6 +37,9 @@ private
       null;
    end record;
    type Clase_Leon is new Clase_Animal with Record
+      null;
+   end record;
+   type Clase_Aguila is new Clase_Animal with Record
       null;
    end record;
 end Selva;
